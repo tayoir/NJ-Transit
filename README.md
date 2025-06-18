@@ -1,4 +1,4 @@
-This project is focuses on data analysis of 27 months of New Jersey Transit commuter train data, from March 2018 to May 2020, covering roughly 1000 daily trains across 167 stations. Each train contains 11 variables, including date, route number, stop sequence, origin and destination names and ID numbers, scheduled and actual time, and delays.
+This project focuses on data analysis of 27 months of New Jersey Transit commuter train data, from March 2018 to May 2020, covering roughly 1000 daily trains across 167 stations. Each train contains 11 variables, including date, route number, stop sequence, origin and destination names and ID numbers, scheduled and actual time, and delays.
 
 First, the data is scraped to a large CSV file at which point it’s processed into a data frame. Next, a time table is generated through use of python’s unique() function to isolate train numbers.
 
